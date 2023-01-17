@@ -1,10 +1,47 @@
+:root {
+  --main-font-family:"Nunito Sans", sans-serif;
+
+  --background-color: #e7eaf6;
+
+  --primary-color: #113f67;
+
+  --secondary-color: #38598b;
+
+  --third-color: #a2a8d3;
+}
+
 h1 {
-  font-family: "Nunito Sans", sans-serif;
   font-weight: bold;
-  background: greenyellow;
+  font-size: 96px ;
+  
+
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
 }
 
 p {
-  font-family: "Nunito Sans", sans-serif;
+ font-size: 24px;
   font-weight: regular;
+  color: var(--secondary-color);
+}
+
+.introduction {
+text-align: center;
+font-family: var(--main-font-family);
+background-color: var(--background-color);
+color: var(--primary-color);
+padding: 100px 30px
+}
+
+.btn-branding {
+  background-color: var(--third-color);
+  color: white
+}
+
+.btn-branding:hover {
+  background-color: var(--secondary-color);
+  color: white
 }
