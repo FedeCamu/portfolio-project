@@ -1,5 +1,5 @@
 :root {
-  --main-font-family:"Nunito Sans", sans-serif;
+  --main-font-family: "Nunito Sans", sans-serif;
 
   --background-color: #e7eaf6;
 
@@ -12,9 +12,7 @@
 
 h1 {
   font-weight: bold;
-  font-size: 96px ;
-  
-
+  font-size: 96px;
 }
 
 h2 {
@@ -23,90 +21,86 @@ h2 {
 }
 
 p {
- font-size: 24px;
+  font-size: 24px;
   font-weight: regular;
   color: var(--secondary-color);
 }
 
-    .homepage-projects img {
-        border-radius: 10px;
-        transition: all 200ms ease-in-out;
-      }
+.homepage-projects {
+  text-align: center;
+  font-family: var(--main-font-family);
+  color: var(--primary-color);
+}
 
-      .homepage-projects img:hover {
-        transform: scale(1.1);
-        filter: grayscale(40%);
-        cursor: pointer;
-        /* filter: contrast(80%); */
-      }
+.homepage-projects img {
+  border-radius: 10px;
+  padding: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.homepage-projects img:hover {
+  transform: scale(1.1);
+  filter: grayscale(40%);
+  cursor: pointer;
+  /* filter: contrast(80%); */
+}
+
+.homepage-projects p {
+  font-size: 18px;
+  text-align: center;
+}
 
 .introduction {
-text-align: center;
-font-family: var(--main-font-family);
-background-color: var(--background-color);
-color: var(--primary-color);
-padding: 100px 30px
+  text-align: center;
+  font-family: var(--main-font-family);
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  padding: 100px 30px;
 }
 
 .btn-branding {
   background-color: var(--third-color);
-  color: white
+  color: white;
 }
 
 .btn-branding:hover {
   background-color: var(--secondary-color);
-  color: white
+  color: white;
 }
 
 .btn-projects-branding {
-
   background-color: white;
   color: var(--secondary-color);
-  border: 1px solid  var(--secondary-color) ;
-
-
+  /* border: 1px solid  var(--secondary-color) ; */
 }
 
 .btn-projects-branding:hover {
-
   background-color: var(--secondary-color);
   color: white;
-  border: 1px solid  var(--secondary-color) ;
-
-
+  /* border: 1px solid  var(--secondary-color) ; */
 }
-
 
 .projects-intro {
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
-
+  font-weight: bold;
 }
 
-.links {
-  display: flex;
-  justify-content: space-around;
-}
 
-i {
 
-   color: var(--secondary-color);
-   font-size: larger;
-  /* border: 2px solid  var(--secondary-color) ;
-  padding:5px 10px 0px 10px;
-  border-radius: 100%; */
 
-}
 
-@media (max-width:900px) {
-
+@media (max-width: 900px) {
   h1 {
     font-size: 48px;
   }
 
   h2 {
-  font-size: 28px;
-  line-height: 1.5;
+    font-size: 28px;
+    line-height: 1.5;
+  }
 
-}
+  .btn-projects-branding {
+    font-size: 18px;
+  }
 }
