@@ -26,6 +26,19 @@ p {
   color: var(--secondary-color);
 }
 
+
+.bg-blue {
+
+  background-color: var(--secondary-color);
+
+
+}
+
+.default-font-family {
+
+  font-family: var(--main-font-family);
+}
+
 .homepage-projects {
   text-align: center;
   font-family: var(--main-font-family);
