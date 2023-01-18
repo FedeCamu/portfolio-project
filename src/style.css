@@ -35,7 +35,7 @@ p {
 
       .homepage-projects img:hover {
         transform: scale(1.1);
-        filter: sepia(30%);
+        filter: grayscale(40%);
         cursor: pointer;
         /* filter: contrast(80%); */
       }
@@ -96,4 +96,17 @@ i {
   padding:5px 10px 0px 10px;
   border-radius: 100%; */
 
+}
+
+@media (max-width:900px) {
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+  font-size: 28px;
+  line-height: 1.5;
+
+}
 }
