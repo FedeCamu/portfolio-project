@@ -55,7 +55,7 @@ p {
 
 }
 
-.about-intro {
+.page-intro {
 
   text-align: start;
   font-family: var(--main-font-family);
@@ -65,17 +65,23 @@ p {
 
 }
 
-.about-intro h1 {
-font-size: 52px;
-line-height: 66px;
+#projects{
+
+ padding: 0px 30px;
 
 }
 
-.about-intro h2 {
+.page-intro h1 {
+font-size: 48px;
+line-height: 60px;
+
+}
+
+.page-intro h2 {
 font-size: 18px;
 }
 
-.about-intro p {
+.page-intro p {
 font-weight: normal;
     font-size: 14px;
     line-height: 25px;
@@ -161,6 +167,9 @@ font-weight: normal;
   font-weight: bold;
 }
 
+
+
+
 @media (max-width: 900px) {
   h1 {
     font-size: 48px;
@@ -189,5 +198,10 @@ font-weight: normal;
   .about-work-inquiry {
   text-align: center;}
 
+  .row-order {
+    display: flex;
+    flex-direction:row-reverse;}
+    .row-order :nth-child(1) { order: 2; }
+    .row-order :nth-child(2) { order: 1; } 
 
 }
