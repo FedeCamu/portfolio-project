@@ -11,16 +11,15 @@
 
   /* --logo-font-family: 'Rubik 80s Fade', cursive; */
 
-   /* --logo-font-family: 'Monoton', cursive; */
-    
-   /* --logo-font-family: 'Fredericka the Great', cursive; */
+  /* --logo-font-family: 'Monoton', cursive; */
 
-   /* --logo-font-family: 'Londrina Shadow', cursive; */
+  /* --logo-font-family: 'Fredericka the Great', cursive; */
 
-   /* --logo-font-family: 'Train One', cursive; */
+  /* --logo-font-family: 'Londrina Shadow', cursive; */
 
-   --logo-font-family: 'Bungee Outline', cursive;
+  /* --logo-font-family: 'Train One', cursive; */
 
+  --logo-font-family: "Bungee Outline", cursive;
 }
 
 h1 {
@@ -39,6 +38,42 @@ p {
   color: var(--secondary-color);
 }
 
+footer .email-link {
+  margin-top: 50px;
+}
+
+footer .email-link a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: var(--main-font-family);
+  color: var(--primary-color);
+}
+
+footer .email-link a:hover {
+  color: var(--third-color);
+}
+
+footer .social-media-links {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+footer .social-media-links a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: var(--main-font-family);
+  color: var(--third-color);
+  background-color: var(--background-color);
+  margin: 0 24px;
+  padding: 10px 16px;
+  border-radius: 50%;
+}
+
+footer .social-media-links a:hover {
+  color: var(--background-color);
+  background-color: var(--third-color);
+}
+
 .bg-blue {
   background-color: var(--secondary-color);
 }
@@ -48,62 +83,64 @@ p {
 }
 
 .logo {
-
   font-family: var(--logo-font-family);
   font-size: 28px;
-
-
 }
 
 .page-intro {
-
   text-align: start;
   font-family: var(--main-font-family);
   /* background-color: var(--background-color); */
   color: var(--primary-color);
-  padding: 100px 30px;
-
+  padding: 100px 30px 50px 30px;
 }
 
-#projects{
-
- padding: 0px 30px;
-
+#projects {
+  padding: 0px 30px;
 }
 
 .page-intro h1 {
-font-size: 48px;
-line-height: 60px;
-
+  font-size: 48px;
+  line-height: 60px;
 }
 
 .page-intro h2 {
-font-size: 18px;
+  font-size: 18px;
 }
 
 .page-intro p {
-font-weight: normal;
-    font-size: 14px;
-    line-height: 25px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.page-intro i {
+  color: var(--secondary-color);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 5px;
 }
 
 .about-work-inquiry {
+  margin-top: 100px;
   text-align: start;
   font-family: var(--main-font-family);
   background-color: var(--background-color);
   color: var(--primary-color);
-  padding: 30px 30px;
+  padding: 10px 30px;
   border-radius: 20px;
 }
 
 .about-work-inquiry h1 {
- font-size: 38px;
+  font-size: 38px;
 }
 
 .about-work-inquiry p {
- font-weight: normal;
-    font-size: 14px;
-    line-height: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: start;
 }
 
 .homepage-projects {
@@ -167,9 +204,6 @@ font-weight: normal;
   font-weight: bold;
 }
 
-
-
-
 @media (max-width: 900px) {
   h1 {
     font-size: 48px;
@@ -185,23 +219,26 @@ font-weight: normal;
   }
 
   .about-intro {
-
     text-align: center;
   }
 
-   .about-intro h1 {
-
+  .about-intro h1 {
     line-height: 50px;
     font-size: 48px;
   }
 
   .about-work-inquiry {
-  text-align: center;}
+    text-align: center;
+  }
 
   .row-order {
     display: flex;
-    flex-direction:row-reverse;}
-    .row-order :nth-child(1) { order: 2; }
-    .row-order :nth-child(2) { order: 1; } 
-
+    flex-direction: row-reverse;
+  }
+  .row-order :nth-child(1) {
+    order: 2;
+  }
+  .row-order :nth-child(2) {
+    order: 1;
+  }
 }
