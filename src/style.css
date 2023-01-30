@@ -74,6 +74,14 @@ footer .social-media-links a:hover {
   background-color: var(--third-color);
 }
 
+footer .credits p {
+  text-align: center;
+  font-size: 14px;
+  font-family: var(--main-font-family);
+  color: var(--secondary-color);
+
+}
+
 .bg-blue {
   background-color: var(--secondary-color);
 }
