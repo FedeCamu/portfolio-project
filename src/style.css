@@ -113,7 +113,7 @@ footer .credits p {
 }
 
 .page-intro h2 {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .page-intro p {
@@ -267,5 +267,11 @@ footer .credits p {
   }
   .row-order :nth-child(2) {
     order: 1;
+  }
+
+  .skill-set img {
+    max-width: 20%;
+    margin-bottom: 20px;
+    
   }
 }
